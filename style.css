@@ -20,13 +20,22 @@
 }
 
 .input {
+    display: flex;
     flex:0.6;
+}
+
+.input button {
+    border: 1px solid #fca311;
+    background-color: #fca311;
+    border-radius: 0px     4px      4px     0;
+    padding: 0px 12px;
+    font-weight: 400;
 }
 
 .input input {
     padding: 8px 5px;
     border: none;
-    border-radius: 4px;
+    border-radius: 4px 0px 0px 4px;
     outline: none;
     font-size: 18px;
     flex: 1;
@@ -49,9 +58,6 @@
     padding: 8px 4px;
 }
 
-main {
-
-}
 
 .main-header {
     display: flex;
@@ -73,7 +79,7 @@ main {
 .product {
     border-radius: 4px;
     outline: none;
-    border: 1px solid gray
+    border: 2px solid gray
 }
 
 .product-body {
@@ -93,6 +99,7 @@ a {
 
 .product-footer button {
     width: 100%;
+    border-radius: 4px;
 }
 
 .buttons {
