@@ -4,10 +4,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+    <header>
+        <div class="nav-wrapper">
+            <div class="logo">
+                WeSell
+            </div>
+            <div class="input">
+                <input type="text">
+            </div>
+            <div class="nav-items">
+                <span>Home</span>
+                <span>Order</span>
+                <span>Contact</span>
+            </div>
+        </div>
+    </header>
+    <main id='main'>
+        <div class="main-header">
+             <h1 id="h1" class="mainText">This is official website of WeSell</h1>
+        </div>
+        <div class="products-wrapper">
+            <div class="product">
+                <div class="product-header">
+                    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVBMgE9oKLRpLrvsck0Rh2v3R60sADhlVvQ&usqp=CAU" alt="pic" srcset="">
+                </div>
+                <div class="product-body">
+                    Iphone 13 Pro Max
+                    <h6>$999</h6>
+                    <a href="https://www.amazon.pl/Apple-iPhone-13-Pro-128-GB/dp/B09G9QD4WQ/ref=asc_df_B09G9QD4WQ/?tag=plshogostdde-21&linkCode=df0&hvadid=504423851748&hvpos=&hvnetw=g&hvrand=11453015493129414389&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061066&hvtargid=pla-1430146136069&th=1">Amazon</a>
+                </div>
+                <div class="product-footer">
+                    <button class="btn btn-primary">Change H1</button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <div class="product-header">
+                    <img  class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVBMgE9oKLRpLrvsck0Rh2v3R60sADhlVvQ&usqp=CAU" alt="pic" srcset="">
+                </div>
+                <div class="product-body">
+                    Iphone 13 Pro Max
+                    <h6>$999</h6>
+                    <a href="https://www.amazon.pl/Apple-iPhone-13-Pro-128-GB/dp/B09G9QD4WQ/ref=asc_df_B09G9QD4WQ/?tag=plshogostdde-21&linkCode=df0&hvadid=504423851748&hvpos=&hvnetw=g&hvrand=11453015493129414389&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061066&hvtargid=pla-1430146136069&th=1">Amazon</a>
+                </div>
+                <div class="product-footer">
+                    <button  class="btn btn-primary">Change background color</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-header">
+                    <img  class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVBMgE9oKLRpLrvsck0Rh2v3R60sADhlVvQ&usqp=CAU" alt="pic" srcset="">
+                </div>
+                <div class="product-body">
+                    Iphone 13 Pro Max
+                    <h6>$999</h6>
+                    <a href="https://www.amazon.pl/Apple-iPhone-13-Pro-128-GB/dp/B09G9QD4WQ/ref=asc_df_B09G9QD4WQ/?tag=plshogostdde-21&linkCode=df0&hvadid=504423851748&hvpos=&hvnetw=g&hvrand=11453015493129414389&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061066&hvtargid=pla-1430146136069&th=1">Amazon</a>
+                </div>
+                <div class="product-footer">
+                    <button onclick=adress() class="btn btn-primary ">Show address!!!!!</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick=h1() class="btn btn-primary ">Change H1</button>
+            <button onclick=background() class="btn btn-success ">Change background color</button>
+            <button onclick=adress() class="btn btn-danger ">Show address!!!!!</button>
+            <button onclick=addClass() class="btn btn-warning ">Add Css Class</button>
+            <button onclick=toggle() class="btn btn-dark ">Toggle Image</button>
+        </div>
+    </main>
+    <footer>
+        <h1 id="adress">I can't show adress sorry...</h1>
+    </footer>
 
 <script src="./script.js"></script>
 </body>
